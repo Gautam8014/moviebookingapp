@@ -71,6 +71,11 @@ console.log(formData)
       <div className="text">
         <h3>"Be part of the thrilling premiere! Book now for an exhilarating movie experience and secure your front-row seat!"</h3>
       </div>
+      <div className="text">
+      <a href='https://www.youtube.com/watch?v=fFoNuX-Diuo'><h2>Watch Trailer Now Click On !!</h2></a>
+
+      </div>
+      
 
       <div className="movieform">
         <img src="https://www.cntvbihar.in/news_file/932883170IMG-20231030-WA0003.jpg" alt="error" />
@@ -119,7 +124,7 @@ console.log(formData)
             <label>Total amount :  ₹ {totalPrice}</label>
             <button onClick={handleSubmitBook}>Book</button>
           </form>
-          {/* <h4> Created by- Kalyan Tech</h4> */}
+        
         </div>
       </div>
 
