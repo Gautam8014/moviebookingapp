@@ -60,6 +60,7 @@ console.log(formData)
     window.location.href = whatsappUrl;
   };
   return (
+    <div>
     <div className='home'>
       <div className="nav">
         <h1>Book Your Show Now and Grab Your Seat</h1>
@@ -118,12 +119,14 @@ console.log(formData)
             <label>Total amount :  ₹ {totalPrice}</label>
             <button onClick={handleSubmitBook}>Book</button>
           </form>
+          {/* <h4> Created by- Kalyan Tech</h4> */}
         </div>
       </div>
 
      
     </div>
     
+    </div>
   );
 }
 
