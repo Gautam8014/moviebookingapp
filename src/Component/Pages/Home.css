@@ -39,7 +39,29 @@
 .text {
   animation: colorChange 2s infinite; /* Apply the animation */
 }
+.text1 {
+  color: violet; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
 
+.text1:hover {
+  color: rgb(180, 165, 165); /* Color changes to red on hover */
+}
+@keyframes colorChange1 {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color:greenyellow;
+  }
+}
+
+.text1 {
+  animation: colorChange1 2s infinite; /* Apply the animation */
+}
 
 .movieform img {
     width: 40%; 

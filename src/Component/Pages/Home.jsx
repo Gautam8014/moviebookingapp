@@ -64,7 +64,7 @@ console.log(formData)
       <div className="nav">
         <h1>Book Your Show Now and Grab Your Seat</h1>
       </div>
-      <div className="text">
+      <div className="text1">
         <h1>"Manjhi The Bharat Ratna"</h1>
       </div>
       <div className="text">
@@ -121,13 +121,9 @@ console.log(formData)
         </div>
       </div>
 
-      {formData.qrCodeImage && (
-        <div className="qrCodeSection">
-          <h3>Scan the QR code to complete your booking:</h3>
-          <img src={formData.qrCodeImage} alt="QR Code" />
-        </div>
-      )}
+     
     </div>
+    
   );
 }
 
