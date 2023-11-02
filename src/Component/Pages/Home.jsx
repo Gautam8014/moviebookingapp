@@ -64,7 +64,9 @@ console.log(formData)
       <div className="nav">
         <h1>Book Your Show Now and Grab Your Seat</h1>
       </div>
-
+      <div className="text">
+        <h1>"Manjhi The Bharat Ratna"</h1>
+      </div>
       <div className="text">
         <h3>"Be part of the thrilling premiere! Book now for an exhilarating movie experience and secure your front-row seat!"</h3>
       </div>
