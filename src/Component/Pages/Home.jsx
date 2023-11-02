@@ -31,27 +31,6 @@ console.log(formData)
     default:
       totalPrice = 0;
   }
-  // const handleSubmitBook = (e) => {
-  //   e.preventDefault();
-  //   console.log('Form Data:', formData);
-
-  //   // Prepare the message based on the form data
-  //   const message = `%0aYour Name: ${formData.yourname} %0aNumber of Tickets: ${formData.numberOfTickets} %0aCategory: ${formData.category}`;
-
-  //   // WhatsApp URL including the phone number and message
-  //   const whatsappUrl = `https://wa.me/+917479475733?text=${message}`;
-
-  //   // Redirect the user to the WhatsApp URL
-  //   window.location.href = whatsappUrl;
-
-
-  //   const qrCodeImagePath = process.env.PUBLIC_URL + "./qr.jpeg";
-  //   setFormData({
-  //       ...formData,
-  //       qrCodeImage: qrCodeImagePath,
-  //     });
-
-  // };
   const handleSubmitBook = (e) => {
     e.preventDefault();
     
