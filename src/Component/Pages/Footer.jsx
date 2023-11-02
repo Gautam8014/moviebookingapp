@@ -34,7 +34,7 @@ export const Footer = () => {
         </div>
 
         <div className="CreatedBy">
-          <h3>Created By :- Kalyan Tech</h3>
+          <h3>Website created by :- Kalyan Tech</h3>
         </div>
 
 
